@@ -25,8 +25,7 @@
 
 #define ADCH                    *((volatile uint8 *)0x25)  /*ADC data high Register  */
 #define ADCL                    *((volatile uint8*)0x24)  /*ADC data Low Register  */
-#define ADCLP                     *((volatile uint16*)0x24)
-
+#define ADC					      *((volatile uint16*)0x24)
 
 
 #endif /* ADC_REG_H_ */

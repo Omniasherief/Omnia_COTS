@@ -24,4 +24,16 @@
 #define CHANNEL_BIT_MASK       0b11100000
 #define EIGHT_BITS             1u
 #define TEN_BITS               2u
+
+#define IDLE                   0u
+#define BUSY                   1u
+
+
+#define  SINGLE_ASYNCH      0
+#define  CHAIN_ASYNCH       1
+
+
+static void voidHandleSingleConvAsynch(void);
+
+static void voidHandleChainConvAsynch(void);
 #endif /* ADC_PRV_H_ */
